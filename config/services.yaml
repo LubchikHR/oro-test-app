@@ -42,10 +42,3 @@ services:
                 name: 'console.command.chain',
                 alias: !php/const App\ChainCommandBundle\Service\CommandExecutor::SECONDARY_COMMAND
             }
-
-    App\FooBundle\Command\Foo2Command:
-        tags:
-            - {
-                name: 'console.command.chain',
-                alias: !php/const App\ChainCommandBundle\Service\CommandExecutor::SECONDARY_COMMAND
-            }
